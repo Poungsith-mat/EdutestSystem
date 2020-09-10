@@ -1,6 +1,5 @@
 <template>
   <div id="tablestd1">
-      
     <v-card>
       <v-card-title>
         รายชื่อนักศึกษา

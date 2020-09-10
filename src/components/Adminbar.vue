@@ -1,26 +1,22 @@
 <template>
-  <center>
-  <v-row >
-    <v-col cols="2" style="background-color:grey">
+  <div id="adminbar">
       <img alt="Vue logo" src="../assets/logo.png" />
-      <v-btn block no-gutters style="margin-top:30px">บัญชีอาจารย์</v-btn>
-      <v-btn block no-gutters>บัญชีนักศึกษา</v-btn>
+      <v-btn block no-gutters style="margin-top:17%" to="/admin/teacher"
+        >บัญชีอาจารย์
+      </v-btn>
+      <v-btn block no-gutters to="/admin/student">บัญชีนักศึกษา</v-btn>
 
-      <div style="margin-top:252px"></div>
+      <div style="margin-top:120%"></div>
 
-      <v-btn block no-gutters >Setting</v-btn>
+      <v-btn block no-gutters>Setting</v-btn>
       <v-btn block no-gutters>Log out</v-btn>
-    </v-col>
-  </v-row>
-  </center>
+  </div>
 </template>
 
 <script>
 export default {
-
-}
+  name: "adminbar",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

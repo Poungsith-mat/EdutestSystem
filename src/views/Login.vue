@@ -44,8 +44,9 @@ export default {
 </script>
 
 <style>
-#app {
+body {
   text-align: center;
-  justify-items: center;
+  justify-self: center;
 }
+
 </style>
